@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 
-body {background:rgb(177, 177, 165);}
+body {background:#FEFEFE;}
 
 .menu_bar {
 	display:none;
@@ -18,7 +18,7 @@ header {
 }
 
 header nav {
-	background:#000508;
+	background:#023859;
 	z-index:1000;
 	max-width: 1000px;
 	width:95%;
@@ -35,7 +35,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-	background:rgb(58, 56, 57);
+	background:#E6344A;
 }
 
 header nav ul li a {
@@ -55,7 +55,7 @@ header nav ul li:hover .children {
 
 header nav ul li .children {
 	display: none;
-	background:#010608;
+	background:#011826;
 	position: absolute;
 	width: 150%;
 	z-index:1000;
@@ -149,32 +149,6 @@ header nav ul li .caret {
 		float: right;
 	}
 }
-h1 {
-  color:#8d1212;
-  font-family:times new roman;
-  font-size:75px;
-  text-align:center;
-  text-decoration:none;
-  }
-
-h2 {
-  color:#000000;
-  font-family:Verdana;
-  font-size:50px;
-  text-align:center;
-  text-decoration:none;
-}
-h3 {
-  color:#000000;
-  font-family:Times New Roman;
-  font-size:25px;
-  text-align:center;
-  text-decoration:none;
-}
-
-
-
-
 /* header2 para integrar las imagenes de las peliculas*/
 #header2 {
   margin: auto;
