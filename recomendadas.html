@@ -2,37 +2,44 @@
 <!-- Esto es un comentario en html -->
 <head>
     <title>Mega Directo</title>
-    <link rel="StyleSheet" type="text/css" href="beta2.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="beta2.css">
+    <link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="main.js"></script>
 </head>
 
 <body>
-    <div id="header">
-        <ul class="nav">
-            <li><a href="beta.html">Inicio</a></li>
-           
-            <li><a href="">Series</a>
-                <ul>
-                    <li><a href="">Netflix</a></li>
-                    <li><a href="">Juvenil</a></li>
-                    <li><a href="">Animada</a></li>
-                    <li><a href="">Varias</a></li>
-                    <li><a href="recomendadas.html">Recomendadas</a></li>
-                </ul>
-            </li>
-            <li><a href="">Peliculas</a>
-                <ul>
-                    <li><a href="">Marvel</a></li>
-                    <li><a href="">DC</a></li>
-                    <li><a href="">Accion</a></li>
-                    <li><a href="">Drama</a></li>
-                    <li><a href="">Comedia</a></li>
-                    <li><a href="">Romance</a></li>
-                </ul>
-            </li>
-            <li><a href="">Creditos</a></li>
-        </ul>
-    </div>
+    <header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+		</div>
+ 
+		<nav>
+			<ul>
+                <li><a href="beta.html"><span class="icon-home"></span>Inicio</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-pacman"></span>Series<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="#">Netflix <span class="icon-dot"></span></a></li>
+						<li><a href="#">Juvenil <span class="icon-dot"></span></a></li>
+                        <li><a href="animadas.html">Animadas <span class="icon-dot"></span></a></li>
+                        <li><a href="recomendadas.html">Recomendadas <span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li class="submenu">
+					<a href="#"><span class="icon-film"></span>Peliculas<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="#">Marvel <span class="icon-dot"></span></a></li>
+						<li><a href="#">Dc <span class="icon-dot"></span></a></li>
+                        <li><a href="#">Accion <span class="icon-dot"></span></a></li>
+                        <li><a href="#">Comedia <span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
     <br>
     <br>
     <div div style="background-color: rgba(95, 94, 90, 0.349); height: 1500px;width: 1366px;">
